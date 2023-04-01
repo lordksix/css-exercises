@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
+*{
+  padding:0;
+  margin: 0;
+}
 body {
   height: 100vh;
   margin: 0;
@@ -24,4 +27,47 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+
+body{
+  display: flex;
+  flex-flow: column;
+}
+ul{
+  list-style: none;
+}
+a:link,
+a:visited {
+  color: #5D6063;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+.left-links, .right-links{
+  display: flex;
+  gap: 20px;
+}
+.content{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  flex: 1;
+  justify-content: center;
+}
+button{
+  padding: 8px 16px;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+  background-color: #eeeeee;
+  padding: 20px;
+
 }

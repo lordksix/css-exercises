@@ -1,0 +1,15 @@
+.para {
+    background-color: rgb(240, 68, 68);
+    font-family: DejaVu Sans,Verdana, sans-serif;
+}
+#second {
+    color: rgb(0, 0, 255);
+    font-size: 36px;
+}
+.third,#forth {
+    font-size: 24px;
+}
+#forth {
+    background-color: rgb(46, 189, 46);
+    font-weight: bold;
+}
